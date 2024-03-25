@@ -8,7 +8,7 @@
 
 ## 🔎 Intro:
 
-This is a practice project in React that displays a mini counter. Mainly focus on behind the scenes of react along optimization techniques.
+This is a practice project in React which displays a mini counter. The main focus on behind the scenes of react along optimization techniques.
 
 ## 🧰 🛠️ Tech Stack & Techniques:
 
