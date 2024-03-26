@@ -3,19 +3,26 @@
 ## 📣 Overview:
 
 - Intro
-- Tech Stack & Techniques
+- Tech Stack
+- Techniques
 - Additional Link
 
 ## 🔎 Intro:
 
 This is a practice project in React which displays a mini counter. The main focus on behind the scenes of react along optimization techniques.
 
-## 🧰 🛠️ Tech Stack & Techniques:
+## 🧰 Tech Stack:
 
 - React
 - JavaScript
 - CSS3
 - Vite
+
+## 🛠️ Techniques:
+
+- React APIs: Memo
+
+---
 
 ---
 
