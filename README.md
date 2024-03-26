@@ -30,7 +30,7 @@ This is a practice project in React which displays a mini counter. The main focu
 - **_React Hooks_**:
   - **`useCallback()`**: This hook lets you memoize a callback function by preventing it from being created again on every render, which means that the callback function is cached and doesn't get redefined on every render.
   - **`useMemo()`**: It designed to optimize performance by memoizing expensive computations. With using **useMemo()**, React will store the result of a function call and reuse it when the dependencies of that function haven't changed, rather than recalculating the value on every render.
-    - **`Note`**: **Don't overuse `useMemo()!** Do not use useMemo() until you notice that some parts of your application are running frustratingly slow.
+    - **`Note`**: **Don't overuse useMemo()!** Do not use useMemo() until you notice that some parts of your application are running frustratingly slow.
 
 ---
 
