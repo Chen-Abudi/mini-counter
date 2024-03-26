@@ -23,7 +23,7 @@ This is a practice project in React which displays a mini counter. The main focu
 - **_React APIs_**:
   - **`Memo`**: React memo checks for changes between the previous and current values for a given prop passed to the component. The default function carries out a shallow comparison on each passed in prop. It then checks for equality of incoming values with the existing values.
     - **`Note`**: **Don't overuse memo()!**
-      - **Use it `as high up in the component tree as possible`ß**:
+      - **Use it `as high up in the component tree as possible`**:
         Blocking a component execution there will also block all child component executions.
       - **Checking props with memo() `costs performance!`**: Don't wrap it around all your components - it will add a lot of unnecessary checks.
       - **`Do Not` use it on components where `props will change frequently`**: memo() would just perform a meaningless check in such cases (which costs performance).
