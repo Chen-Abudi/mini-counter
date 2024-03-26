@@ -30,8 +30,6 @@ This is a practice project in React which displays a mini counter. The main focu
 
 ---
 
----
-
 ## 🔗 Additional Link:
 
 If you want to strengthen your knowledge and skills of **React, Redux, and more...** along **Best Practices**, Feel free to check this course on Udemy by **`Maximilian Schwarzmüller`**:
