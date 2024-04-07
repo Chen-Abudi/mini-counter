@@ -17,6 +17,7 @@ This is a practice project in React which displays a mini counter. The main focu
 - JavaScript
 - CSS3
 - Vite
+- **`MillionJS`**: A fast and lightweight optimizing compiler that make React components up to 70% faster.
 
 ## 🛠️ Techniques:
 
@@ -32,6 +33,10 @@ This is a practice project in React which displays a mini counter. The main focu
   - **`useMemo()`**: It designed to optimize performance by memoizing expensive computations. With using **useMemo()**, React will store the result of a function call and reuse it when the dependencies of that function haven't changed, rather than recalculating the value on every render.
     - **`Note`**: **Don't overuse useMemo()!**
       Do not use useMemo() until you notice that some parts of your application are running frustratingly slow.
+- **_State Scheduling & Batching_**:
+  - **`Scheduling`** in React utilizes a priority-based queue to update components.
+  - **`Batching`** groups multiple state updates to minimize re-renders, enhancing performance.
+    This is achieved through React's `setState()` batching mechanism or by using `useReduces()` for manual batching. Efficiently managing updates enhances UI responsiveness.
 
 ---
 
