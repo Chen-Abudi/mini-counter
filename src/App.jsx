@@ -12,6 +12,8 @@ function App() {
 
   function handleSetCount(newCount) {
     setChosenCount(newCount);
+    // Example for state scheduling & batching
+    // setChosenCount((prevChosenCount) => prevChosenCount + 1);
   }
 
   return (
