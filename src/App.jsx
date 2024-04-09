@@ -12,7 +12,7 @@ function App() {
 
   function handleSetCount(newCount) {
     setChosenCount(newCount);
-    // Example for state scheduling & batching
+    // Example for state scheduling
     // setChosenCount((prevChosenCount) => prevChosenCount + 1);
   }
 
@@ -22,7 +22,6 @@ function App() {
       <main>
         <ConfigureCounter onSet={handleSetCount} />
         <Counter key={chosenCount} initialCount={chosenCount} />
-        <Counter initialCount={0} />
       </main>
     </>
   );
